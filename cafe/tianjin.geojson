@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "名称": "anitalab",
+        "下载速度": "0 Mbps",
+        "Speedtest 链接": "https://www.speedtest.net/my-result/i/4623865039",
+        "评论": "一天不喝难受",
+        "厕所": "附近有公共厕所。",
+        "marker-color": "#C24740",
+        "marker-symbol": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.374449,
+          38.979341
+        ]
+      }
+    }
+  ]
+}

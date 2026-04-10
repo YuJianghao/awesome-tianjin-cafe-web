@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "fetch": "git clone https://github.com/ElaWorkshop/awesome-cn-cafe cafe 2> /dev/null || git -C cafe pull",
     "data": "node ./scripts/process.mjs",
-    "postinstall": "npm run fetch && npm run data",
+    "postinstall": "npm run data",
     "dev": "vite",
     "build": "npm run postinstall && vite build"
   },
